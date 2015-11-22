@@ -82,8 +82,6 @@ combined2 <- combined[ , c(features_index, 562, 563)] #includes the activity and
 
 ## Get vector of activities
 activity_labels <- read.table("activity_labels.txt") #this will make factors which is necessary
-head(activity_labels)
-str(activity_labels)
 
 library(plyr)
 oldvalues <- activity_labels$V1
@@ -125,7 +123,7 @@ names(combined3) <- new_colnames
 # -------------------------------
 
 ## Export to text file
-write.table(combined4, "courseproject_tidyresults.txt", row.name=FALSE)
+write.table(combined3, "courseproject_tidyresults.txt", row.name=FALSE)
 
 ## Reset the working directory
 setwd(old_dir)
