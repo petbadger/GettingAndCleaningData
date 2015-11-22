@@ -5,7 +5,7 @@ date: "November 21, 2015"
 ---
 
 # Readme
-This repo explains how the run_analysis.R script works. 
+This repo explains how to use the script run_analysis.R. 
 
 # Getting and Cleaning Data - Course Project
 
