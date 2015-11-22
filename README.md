@@ -1,11 +1,10 @@
 ---
 title: "README.md"
 author: "PetBadger"
-date: "November 19, 2015"
-output: html_document
+date: "November 21, 2015"
 ---
 
-# Repository
+# Readme
 This repo explains how the run_analysis.R script works. 
 
 # Getting and Cleaning Data - Course Project
